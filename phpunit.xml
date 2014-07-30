@@ -1,0 +1,12 @@
+<phpunit bootstrap="./bootstrap.php"
+         backupStaticAttributes="true"
+         backupGlobals="false">
+    <testsuites>
+        <testsuite name="Example Test Suite">
+            <file>./TestClassA.php</file>
+        </testsuite>
+    </testsuites>
+    <php>
+        <ini name="memory_limit" value="2G" />
+    </php>
+</phpunit>
