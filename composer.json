@@ -1,0 +1,9 @@
+{
+    "name": "thehereward/phpunit-backup-static-attributes-bug",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "require": {
+        "phpunit/phpunit": "3.7.37",
+        "joefallon/phpautoloader": "v1.0.1"
+    }
+}
